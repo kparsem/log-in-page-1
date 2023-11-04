@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f8f3f3;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+}
+.container-contents {
+  display: flex;
+  max-height: fit-content;
+  max-height: -moz-fit-content;
+  background-color: #fff;
+  max-width: 60%;
+  margin: auto;
+  font-family: system-ui;
+  /* border: 2px solid black; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+h2 {
+  align-self: flex-start;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  /* margin-top: 60px; */
+}
+.logs {
+  margin-bottom: 40px;
+}
+.btn-par {
+  align-self: center;
+}
+.section {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  flex-grow: 1;
+  margin-bottom: 0;
+}
+.big-image {
+  width: 45%;
+  /* flex-grow: 1; */
+  /* height: px; */
+}
+/* INSIDE THE section */
+.icon-section {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+
+.box-in {
+  /* height: 75%; */
+  width: 70%;
+  /* max-height:fit-content; */
+  display: flex;
+  flex-direction: column;
+}
+.Login {
+  margin-bottom: 20px;
+}
+hr {
+  border-top: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+.button-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+.email {
+  padding: 15px;
+  margin-bottom: 25px;
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.email:focus {
+  outline: 1px solid #ccc;
+}
+.email::placeholder {
+  font-size: 12px;
+  color: #ccc;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  background-color: #076988;
+  color: white;
+  padding: 20px 30px;
+  text-align: center;
+  word-spacing: 13px;
+  font-size: 15px;
+  font-weight: bold;
+  align-self: center;
+  flex-grow: 0;
+  height: fit-content;
+  border-radius: 4px;
+}
+
+a:hover,
+a:active {
+  background-color: gray;
+  color: white;
+}
+.Login {
+  text-align: center;
+  margin-bottom: 20px;
+}
+span {
+  display: flex;
+  gap: 10px;
+  border: 1px solid #ccc;
+  padding: 13px 20px;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+  justify-content: flex-end;
+}
+.im2 {
+  /* align-self: flex-start; */
+}
+p {
+  font-size: 14px;
+}
+.im2 {
+  /* justify-content:space-between; */
+  width: 30px;
+  height: 30px;
+}
